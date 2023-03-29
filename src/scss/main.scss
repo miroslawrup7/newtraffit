@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+}
+
+.iframe-container {
+    border: red 3px solid;
+    // position: static;
+    height: 100%;
+
+    iframe {
+        // top: 0;
+        // left: 0;
+        // right: 0;
+        border: blue solid 3px;
+    }
+}
