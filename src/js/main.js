@@ -17,8 +17,8 @@ const resize = () => {
 
     console.log(iframes.height);
 }
-
-
+console.log(iframes);
+console.log(iframes.height);
 
 
 // setTimeout(resizeIFrameToFitContent, 3000);
