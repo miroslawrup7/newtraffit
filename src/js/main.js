@@ -26,7 +26,7 @@ console.log(iframes.height);
 
 const btn = document.querySelector("button");
 
-btn.addEventListener("click", resize);
+btn.addEventListener("click", resizeIFrameToFitContent);
 // btn.addEventListener("click", resize);
 
 
