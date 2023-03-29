@@ -22,7 +22,7 @@ const resize = () => {
 
 const btn = document.querySelector("button");
 
-btn.addEventListener("click", resizeIFrameToFitContent);
+btn.addEventListener("click", resize);
 // btn.addEventListener("click", resize);
 
 
