@@ -14,9 +14,11 @@ const resizeIFrameToFitContent = () =>{
 const resize = () => {
     
     iframes.height = "100%";
+
+    console.log(iframes.height);
 }
 
-console.log(iframes.height);
+
 
 
 // setTimeout(resizeIFrameToFitContent, 3000);
