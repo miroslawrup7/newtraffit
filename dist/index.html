@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css?cache_bust=1680201903235" />
+    <link rel="stylesheet" href="./css/main.min.css?cache_bust=1680202098366" />
 
     <title>Iframe test</title>
 </head>
@@ -84,13 +84,15 @@
             ratione veniam minus reprehenderit sed recusandae quasi qui laudantium officia dicta sint quidem. </p>
     </div>
 
-    <script defer>
+    <script>
         function resizeIframe(obj) {
-            obj.height = obj.contentWindow.document.body.scrollHeight;
+            setTimeout(
+                obj.height = obj.contentWindow.document.body.scrollHeight
+                , 3000);
         }
     </script>
 
-    <script defer src="./js/all.min.js?cache_bust=1680201903235"></script>
+    <script src="./js/all.min.js?cache_bust=1680202098366"></script>
 
 </body>
 
