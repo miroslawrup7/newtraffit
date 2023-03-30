@@ -15,9 +15,9 @@ const resizeIFrameToFitContent_1 = () => {
 
 const btn1 = document.querySelector("#btn_1");
 
-
-
 btn1.addEventListener("click", resizeIFrameToFitContent_1);
+
+
 
 const iframe2 = document.querySelector("#iframe_2");
 
@@ -26,7 +26,7 @@ console.log(iframe2.height);
 
 const resizeIFrameToFitContent_2 = () => { 
 
-    iframe2.width = iframe2.contentWindow.document.body.scrollWidth;
+    // iframe2.width = iframe2.contentWindow.document.body.scrollWidth;
     iframe2.height = iframe2.contentWindow.document.body.scrollHeight;
 
     console.log(iframe2);
