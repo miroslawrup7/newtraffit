@@ -1,33 +1,40 @@
-const iframes = document.querySelector("iframe");
+const iframe1 = document.querySelector("#iframe_1");
 
-console.log(iframes);
-console.log(iframes.height);
+console.log(iframe1);
+console.log(iframe1.height);
 
-const resizeIFrameToFitContent = () =>{ 
+const resizeIFrameToFitContent_1 = () => { 
 
-    iframes.width = iframes.contentWindow.document.body.scrollWidth;
-    iframes.height = iframes.contentWindow.document.body.scrollHeight;
+    iframe1.width = iframe1.contentWindow.document.body.scrollWidth;
+    iframe1.height = iframe1.contentWindow.document.body.scrollHeight;
 
-    console.log(iframes);
-    console.log(iframes.height);
+    console.log(iframe1);
+    console.log(iframe1.height);
 }
 
-// const resize = () => {
-    
-//     iframes.height = "100%";
 
-//     console.log(iframes.height);
-// }
+const btn1 = document.querySelector("#btn_1");
 
 
 
+btn1.addEventListener("click", resizeIFrameToFitContent_1);
 
-// setTimeout(resizeIFrameToFitContent, 3000);
+const iframe2 = document.querySelector("#iframe_1");
+
+console.log(iframe2);
+console.log(iframe2.height);
+
+const resizeIFrameToFitContent_2 = () => { 
+
+    iframe2.width = iframe2.contentWindow.document.body.scrollWidth;
+    iframe2.height = iframe2.contentWindow.document.body.scrollHeight;
+
+    console.log(iframe2);
+    console.log(iframe2.height);
+}
 
 
-const btn = document.querySelector("button");
+const btn2 = document.querySelector("#btn_2");
 
-btn.addEventListener("click", resizeIFrameToFitContent);
-// btn.addEventListener("click", resize);
-
+btn1.addEventListener("click", resizeIFrameToFitContent_2);
 
