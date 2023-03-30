@@ -36,5 +36,5 @@ const resizeIFrameToFitContent_2 = () => {
 
 const btn2 = document.querySelector("#btn_2");
 
-btn1.addEventListener("click", resizeIFrameToFitContent_2);
+btn2.addEventListener("click", resizeIFrameToFitContent_2);
 
