@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.min.css?cache_bust=1680202320734" />
+    <link rel="stylesheet" href="./css/main.min.css?cache_bust=1680202765230" />
 
     <title>Iframe test</title>
 </head>
@@ -85,14 +85,17 @@
     </div>
 
     <script>
+
+
         function resizeIframe(obj) {
-            setTimeout(
+            setTimeout(() => {
                 obj.height = obj.contentWindow.document.body.scrollHeight
+            }
                 , 10000);
         }
     </script>
 
-    <script src="./js/all.min.js?cache_bust=1680202320734"></script>
+    <script src="./js/all.min.js?cache_bust=1680202765230"></script>
 
 </body>
 

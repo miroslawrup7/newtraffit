@@ -85,9 +85,12 @@
     </div>
 
     <script>
+
+
         function resizeIframe(obj) {
-            setTimeout(
+            setTimeout(() => {
                 obj.height = obj.contentWindow.document.body.scrollHeight
+            }
                 , 10000);
         }
     </script>
