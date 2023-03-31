@@ -18,3 +18,9 @@ const resizeIFrameToFitContent_2 = () => {
 const btn2 = document.querySelector("#btn_2");
 btn2.addEventListener("click", resizeIFrameToFitContent_2);
 
+
+window.addEventListener('message', function(event) {
+    console.log("Message received from the child: " + event.data); // Message received from child
+});
+
+
