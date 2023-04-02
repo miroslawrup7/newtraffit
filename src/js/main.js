@@ -1,7 +1,9 @@
-window.addEventListener('message', function(event) {
-    console.log("Message received from the child: " + event.data); // Message received from child
+const iframe = document.querySelector("#iframe");
 
-    iframe2.height = event.data;
+window.addEventListener('message', function(event) {
+    console.log("Message received from the child: " + event.data);
+
+    iframe.height = event.data;
 });
 
 
